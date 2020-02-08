@@ -17,7 +17,7 @@ class Cojunto{
     }
 
     elementos(){
-        return  `{${this.elements.join()}}`
+        return  `${this.nome} = {${this.elements.join()}}`
     }
 
 }
